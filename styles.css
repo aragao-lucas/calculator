@@ -1,0 +1,49 @@
+#div1:hover {
+background-color: red;
+}
+#div2:hover {
+background-color: red;
+}
+#div3:hover {
+background-color: red;
+}
+#div4:hover {
+background-color: red;
+}
+#div5:hover {
+background-color: red;
+}
+#div6:hover {
+background-color: red;
+}
+#div7:hover {
+background-color: red;
+}
+#div8:hover {
+background-color: red;
+}
+#div9:hover {
+background-color: red;
+}
+#div10:hover {
+background-color: red;
+}
+#div11:hover {
+background-color: red;
+}
+#div12:hover {
+background-color: red;
+}
+#container > div {
+    background-color: blue;
+    width: 50;
+    height: 50;
+}
+#container {
+    display: grid;
+    grid: repeat(4, 60px) / auto-flow 80px;
+}
+p {
+    color: white;
+    margin: 20px;
+}
