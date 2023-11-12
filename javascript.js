@@ -43,12 +43,48 @@ function plus () {
     x += " + "
     document.getElementById("numbers").innerHTML = x
 }
+function minus () {
+    x += " - "
+    document.getElementById("numbers").innerHTML = x
+}
+function mutiply () {
+    x += " * "
+    document.getElementById("numbers").innerHTML = x
+}
+function devide () {
+    x += " / "
+    document.getElementById("numbers").innerHTML = x
+}
 function equal () {
+if (x.includes("+")) {
+
     let [w, z] = x.split(" + ") 
     let numw = parseInt(w)
     let numz = parseInt(z)
-    x = numz + numw
+    x = numw + numz
     document.getElementById("numbers").innerHTML = x
+}
+else if (x.includes("-")) {
+    let [w, z] = x.split(" - ") 
+    let numw = parseInt(w)
+    let numz = parseInt(z)
+    x = numw - numz
+    document.getElementById("numbers").innerHTML = x
+}
+else if (x.includes("*")) {
+    let [w, z] = x.split(" * ") 
+    let numw = parseInt(w)
+    let numz = parseInt(z)
+    x = numw * numz
+    document.getElementById("numbers").innerHTML = x
+}
+else if (x.includes("/")) {
+    let [w, z] = x.split(" / ") 
+    let numw = parseInt(w)
+    let numz = parseInt(z)
+    x = numw / numz
+    document.getElementById("numbers").innerHTML = x
+}
 }
 function reset() {
     x = ""

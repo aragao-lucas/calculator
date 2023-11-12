@@ -34,6 +34,18 @@ background-color: red;
 #div12:hover {
 background-color: red;
 }
+#div13:hover {
+background-color: red;
+}
+#div14:hover {
+background-color: red;
+}
+#div15:hover {
+background-color: red;
+}
+#div16:hover {
+background-color: red;
+}
 #container > div {
     background-color: blue;
     width: 50;
@@ -46,4 +58,7 @@ background-color: red;
 p {
     color: white;
     margin: 20px;
+}
+body {
+    background-color: lightgreen;
 }
