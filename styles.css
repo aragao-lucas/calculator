@@ -46,11 +46,6 @@ background-color: red;
 #div16:hover {
 background-color: red;
 }
-#container > div {
-    background-color: blue;
-    width: 50;
-    height: 50;
-}
 #container {
     display: grid;
     grid: repeat(4, 60px) / auto-flow 80px;
@@ -61,4 +56,56 @@ p {
 }
 body {
     background-color: lightgreen;
+}
+#div1 {
+    background-color: blue;
+}
+#div2 {
+    background-color: blue;
+}
+#div3 {
+    background-color: blue;
+}
+#div4 {
+    background-color: blue;
+}
+#div5 {
+    background-color: blue;
+}
+#div6 {
+    background-color: blue;
+}
+#div7 {
+    background-color: blue;
+}
+#div8 {
+    background-color: blue;
+}
+#div9 {
+    background-color: blue;
+}
+#div10 {
+    background-color: blue;
+}
+#div11 {
+    background-color: blue;
+}
+#div12 {
+    background-color: blue;
+}
+#div13 {
+    background-color: brown;
+}
+#div14 {
+    background-color: brown;
+}
+#div15 {
+    background-color: brown;
+}
+#div16 {
+    background-color: brown;
+}
+#container > div {
+    width: 50;
+    height: 50;
 }
