@@ -59,29 +59,29 @@ function equal () {
 if (x.includes("+")) {
 
     let [w, z] = x.split(" + ") 
-    let numw = parseInt(w)
-    let numz = parseInt(z)
+    let numw = parseFloat(w)
+    let numz = parseFloat(z)
     x = numw + numz
     document.getElementById("numbers").innerHTML = x
 }
 else if (x.includes("-")) {
     let [w, z] = x.split(" - ") 
-    let numw = parseInt(w)
-    let numz = parseInt(z)
+    let numw = parseFloat(w)
+    let numz = parseFloat(z)
     x = numw - numz
     document.getElementById("numbers").innerHTML = x
 }
 else if (x.includes("*")) {
     let [w, z] = x.split(" * ") 
-    let numw = parseInt(w)
-    let numz = parseInt(z)
+    let numw = parseFloat(w)
+    let numz = parseFloat(z)
     x = numw * numz
     document.getElementById("numbers").innerHTML = x
 }
 else if (x.includes("/")) {
     let [w, z] = x.split(" / ") 
-    let numw = parseInt(w)
-    let numz = parseInt(z)
+    let numw = parseFloat(w)
+    let numz = parseFloat(z)
     x = numw / numz
     document.getElementById("numbers").innerHTML = x
 }
@@ -90,3 +90,7 @@ function reset() {
     x = ""
     document.getElementById("numbers").innerHTML = x
 } 
+function dot() {
+        x += "."
+    document.getElementById("numbers").innerHTML = x
+}
