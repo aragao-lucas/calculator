@@ -1,6 +1,6 @@
 # calculator
 
 live site:
-https://aragalucas.github.io/calculator
+https://aragao-lucas.github.io/calculator
 
 
